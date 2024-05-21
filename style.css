@@ -1,0 +1,79 @@
+/* Reset dei margini e dei padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo {
+    /* Stili per il tuo logo */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Colore al passaggio del mouse */
+}
+
+/* Main Content */
+main {
+    padding: 20px 0;
+}
+
+.section {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #eee; /* Sottolineatura */
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section p {
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
